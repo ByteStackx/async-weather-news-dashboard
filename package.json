@@ -1,0 +1,25 @@
+{
+  "name": "async-weather-news-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteStackx/async-weather-news-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByteStackx/async-weather-news-dashboard/issues"
+  },
+  "homepage": "https://github.com/ByteStackx/async-weather-news-dashboard#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
