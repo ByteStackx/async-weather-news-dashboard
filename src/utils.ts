@@ -144,7 +144,7 @@ export function displayResults(weather: WeatherResult, news: NewsResult) {
   console.log(`Lat/Lon: ${weather.latitude}, ${weather.longitude}`);
   console.log(`Temperature (°C): ${weather.temperature_2m ?? 'N/A'}`);
   console.log(`Wind Speed (m/s): ${weather.wind_speed_10m ?? 'N/A'}`);
-  console.log('\n=== News (DummyJSON) ===');
+  console.log('\n=== News ===');
   console.log(`Items: ${news.count}`);
   for (const item of news.items) {
     console.log(`- [${item.id}] ${item.title}`);
@@ -161,3 +161,4 @@ export function displayError(e: unknown) {
     console.error('[Error]', e);
   }
 }
+// 
